@@ -56,7 +56,7 @@ XHReq.send();
 
 function TrendGif(){
     let XHReq = new XMLHttpRequest();
-    XHReq.open('GET',`https://g.tenor.com/v1/trending?&key=CON25TPJXR5Y&limit=20`,true);
+    XHReq.open('GET',`https://g.tenor.com/v1/trending?&key=CON25TPJXR5Y&limit=9`,true);
     XHReq.onload = function(){
     if(XHReq.status === 200){
         let jsonResponse = XHReq.responseText;
