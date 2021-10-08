@@ -1,12 +1,12 @@
 body{
     background-color: whitesmoke;
-    background-image: url('12.gif');
+    background-image: url('./6.png');
 }
 
 h4{
     font-weight: bolder;
     margin-left: 20px;
-    color: rgb(124, 8, 160);
+    color: rgb(236, 233, 241);
 
 }
 header{
@@ -19,7 +19,7 @@ header{
     font-family: cursive;
     font-style: italic;
     font-weight: bolder;
-    color: rgb(155, 105, 236);
+    color: rgb(236, 233, 241);
 
 }
 .d-flex{
@@ -32,12 +32,12 @@ header{
     padding: auto;
     margin: auto;
     margin-top: 20px;
-    background-color: rgb(220, 213, 224);
+    background-color:rgba(61, 57, 68, 0.596);
     border-radius: 5px; 
 }
 .navbar{ 
     border-radius: 5px; 
-    background-color:rgb(147, 126, 182);
+    background-color:rgba(61, 57, 68, 0.596);
 }
 nav{
     width: 90%;
@@ -52,7 +52,6 @@ nav{
     top: 0px;
 }
 #srchContent{
-    margin-top: 20px;
     text-align: left;
     border-radius: 5px; 
     
@@ -68,13 +67,12 @@ nav{
 .term{
     width:300px;
     height:200px;
-
     vertical-align:top;
-    box-shadow: 10px 5px 5px rgb(150, 124, 173);
+    box-shadow: 10px 10px 5px rgb(64, 60, 71);
     margin:20px;
 }
 .gif{
-    box-shadow: 10px 5px 5px rgb(150, 124, 173);
+    box-shadow: 10px 10px 5px rgb(64, 60, 71);
     width:250px;
     height:250px;
     vertical-align:top;
